@@ -1,0 +1,17 @@
+variable "instance_type" {
+  description = "EC2 instance type"
+  type        = string
+  default     = "t3.micro"
+}
+
+variable "instance_name" {
+  description = "EC2 instance name"
+  type        = string
+  default     = "dev-app-server"
+}
+
+variable "environment" {
+  description = "Environment name"
+  type        = string
+  default     = "dev"
+}
